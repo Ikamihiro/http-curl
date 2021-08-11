@@ -1,0 +1,21 @@
+{
+    "name": "ikamihiro/http-curl",
+    "type": "library",
+    "description": "A simple HTTP Client using cURL",
+    "keywords": ["http","client","curl","simple"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "João G. Silva",
+            "email": "joogabrielsntn66@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Http\\": "src/"
+        }
+    },
+    "require": {
+      "ext-curl": "*"
+    }
+}
